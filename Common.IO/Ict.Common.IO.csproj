@@ -44,11 +44,5 @@
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="Yml2Xml.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="../Common/Ict.Common.csproj">
-      <Project>{54A002A1-C6F2-40C8-AAA9-BE2F0A060001}</Project>
-      <Name>Ict.Common</Name>
-    </ProjectReference>
-  </ItemGroup>
 </Project>
 
