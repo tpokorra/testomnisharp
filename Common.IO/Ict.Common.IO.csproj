@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{CF2D4092-770C-487D-B88A-5AF053FF017A}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>library</OutputType>
+    <RootNamespace>Ict.Common.IO</RootNamespace>
+    <AssemblyName>Ict.Common.IO</AssemblyName>
+    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <BaseIntermediateOutputPath>../delivery/obj/</BaseIntermediateOutputPath>
+    <NoStdLib>False</NoStdLib>
+    <OutputPath>../delivery/bin</OutputPath>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DocumentationFile>../delivery/bin/Ict.Common.IO.xml</DocumentationFile>
+    <Optimize>False</Optimize>
+    <StartArguments></StartArguments>
+
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <DefineConstants>DEBUG;TRACE;CODE_ANALYSIS</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)/Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="Yml2Xml.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Common/Ict.Common.csproj">
+      <Project>{54A002A1-C6F2-40C8-AAA9-BE2F0A060001}</Project>
+      <Name>Ict.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>
+

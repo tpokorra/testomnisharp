@@ -1,0 +1,28 @@
+
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.1.0.8000
+Project("{0ACE19CC-7B24-410F-A091-3AB05FE3851A}") = "Ict.Common", "Common/Ict.Common.csproj", "{54A002A1-C6F2-40C8-AAA9-BE2F0A060001}"
+EndProject
+Project("{0ACE19CC-7B24-410F-A091-3AB05FE3851A}") = "Ict.Common.IO", "Common.IO/Ict.Common.IO.csproj", "{CF2D4092-770C-487D-B88A-5AF053FF017A}"
+EndProject
+
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54A002A1-C6F2-40C8-AAA9-BE2F0A060001}.Debug|x86.Build.0 = Debug|x86
+		{54A002A1-C6F2-40C8-AAA9-BE2F0A060001}.Debug|x86.ActiveCfg = Debug|x86
+		{54A002A1-C6F2-40C8-AAA9-BE2F0A060001}.Release|x86.Build.0 = Release|x86
+		{54A002A1-C6F2-40C8-AAA9-BE2F0A060001}.Release|x86.ActiveCfg = Release|x86
+		{CF2D4092-770C-487D-B88A-5AF053FF017A}.Debug|x86.Build.0 = Debug|x86
+		{CF2D4092-770C-487D-B88A-5AF053FF017A}.Debug|x86.ActiveCfg = Debug|x86
+		{CF2D4092-770C-487D-B88A-5AF053FF017A}.Release|x86.Build.0 = Release|x86
+		{CF2D4092-770C-487D-B88A-5AF053FF017A}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+EndGlobal
+
